@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+@font-face {
+    font-family: sylfaen;
+    src: url(../Lesson4/fonts/bpg_glaho_sylfaen.ttf);
+}
+.navigacia{
+    width: 100%px;
+    height: 150px;
+    background-color: #C4C4C4;
+    padding: 30px;
+}
+header li{
+    float: left;
+    margin-right: 20px;
+    padding: 20px;
+}
+header li a{
+    font-size: 18px;
+    color: #000000;
+    padding: 5px 10px;  
+}
+.slider{
+    width: 100%;
+    height: 400px;
+    background-color: #3D3D3D;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    margin-top: -400px;
+}
+.statiebi{
+    padding-left: 70px;
+}
+
+article{
+    width: 458px;
+    background-color: #FF9900;
+    float: left;
+    margin-top: 30px;
+    
+}
+
+.statia2{
+    background-color: #FFC700;
+}
+.statia3{
+    background-color: #FFE600;
+}
+
+.statiaimg{
+     width: 100%;
+}
+   
+.statiaimg img{
+    width: 100%;
+    height: 348px;
+    overflow: hidden;
+}
+h2{
+    color: #000000;
+    font-size: 18px;
+    font-family: sylfaen;
+    padding-left: 10px;
+   
+}
+.text1{
+    font-size: 12px;
+    color: #000000;
+    font-family: sylfaen;
+    padding-left: 10px;
+
+}
+
+.gagrzeleba{
+    font-family: sylfaen;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: hsla(0, 0%, 0%, 0.500)
+       
+}
+footer p{
+    clear: both;
+    padding: 70px;
+}
+.gagrzeleba::after{
+    content: "...";
+}
+
+
+/*......... index2 styles ........*/
+
+.dabruneba ::before{
+    content: "<<";
+   
+}
+.dabruneba{
+    font-family: sylfaen;
+    padding-left: 70px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: hsla(0, 0%, 0%, 0.500)
+}
+.meoregverdi{
+    width: 1370px;
+    height: 740px;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+.meore{
+    background-color: #FF9900;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.suratebi img{
+    width: 456px;
+    height: 200px;
+    float: left;
+    margin-bottom: 30px; 
+}
+.teksti{
+    font-size: 14px;
+    font-family: sylfaen;
+    color: #000000;
+    padding-left: 10px;
+    
+}
+
+/*......... index3 styles........ */
+
+.mesamegverdi{
+    width: 1370px;
+    height: 740px;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: #FFC700;
+}
+.mesame{
+    background-color: #FFC700;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+.suratebiwass img{
+ width: 456px;
+ height: 200px;
+ float: left;
+ margin-bottom: 30px;   
+
+}
+
+
+/*......... index4 styles......... */
+
+
+.meotxegverdi{
+    width: 1370px;
+    height: 740px;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: #FFE600;   
+}
+.meotxe{
+    background-color: #FFE600;
+    margin-bottom: 50px;
+    padding-top: 50px;   
+}
+.suratebimal img{
+    width: 456px;
+    height: 200px;
+    float: left;
+    margin-bottom: 30px;
+}
